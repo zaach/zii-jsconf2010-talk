@@ -1,6 +1,8 @@
-Slides and example from "Build Your Own Programming Language"
-======================================================
+"Build Your Own Programming Language with JavaScript" slides and code
+==========================================
 
-This is the example language grammar used during my JSConf Track B presentation. `example.mylang` shows an example of the language we want to parse.
+* `example.mylang` shows an example of the language we want to parse
+* `grammar.jison` is the grammar describing the parsing and AST building rules of the language
+* `jsconf2010.pdf` are the slides from the talk.
 
-To regenerate the parser, copy and paste the grammar into the [Jison online generator](http://jison.org/try/) and download the generated parser to save it to disk, or you can experiment right in the browser. 
+Use the [Jison online generator](http://jison.org/try/) to play with the language.
